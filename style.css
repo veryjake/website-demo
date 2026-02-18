@@ -4,7 +4,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
 }
 
-p, li, ol {
+p, li, ol, table, td, th, tr, div, body {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -13,8 +13,32 @@ p, li, ol {
     "wdth" 100;
 }
 
-.container {
-  width: 600px;
-  display: inline-block;
-  text-align: left;
+body {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+  margin: 0%;
 }
+
+.div_container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+  background-color:blanchedalmond; 
+  width: 600px; 
+  margin: 50px; 
+  padding: 10px; 
+  border: solid 5px black;
+}
+
+hr {
+  height: 4px; 
+  background-color: black; 
+  width: 500px; 
+  border: none;
+}
+
+
+
